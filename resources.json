@@ -1,0 +1,10 @@
+{
+    "packages" : {
+        "beagle-2d"                 : "resources/beagle-2d.json",
+        "beagle-2d-lightmap"        : "resources/beagle-2d-lightmap.json",
+        "CE-placeholder-art"        : "resources/CE-placeholder-art.json",
+        "CE-camera"                 : "resources/CE-camera.json",
+        "CE-lights"                 : "resources/CE-lights.json",
+        "CE-compositors"            : "resources/CE-compositors.json"
+    }
+}

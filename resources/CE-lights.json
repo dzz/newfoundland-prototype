@@ -1,0 +1,9 @@
+{
+    "preload": true,
+    "resources" : {
+        "texture" : [
+            { "name" : "radial", "filename" : "resources/lights/radial.png", "filtered" : true },
+            { "name" : "flare", "filename" : "resources/lights/large.jpg", "filtered" : true }
+        ]
+    }
+}

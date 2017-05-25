@@ -1,0 +1,14 @@
+{
+    "description" : "Beagle-2D Lightmap Shader",
+    "version"   : "0.0.0",
+    "preload"   : true,
+    "resources" : [
+    {
+        "unique_instances"  : true,
+        "type"              : "shader",
+        "name"              : "lightmap",
+        "vertex_program"    : "beagle-2d/vertex/no_transform",
+        "pixel_program"     : "beagle-2d-lightmap/pixel/lightmap"
+    }
+    ]
+}

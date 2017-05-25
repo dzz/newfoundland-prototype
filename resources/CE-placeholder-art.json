@@ -1,0 +1,24 @@
+{
+    "preload": true,
+    "resources" : {
+        "texture" : [
+            { "name" : "arena", "filename" : "resources/placeholder/arena.png", "filtered" : false },
+            { "name" : "player", "filename" : "resources/placeholder/player.png", "filtered" : false },
+            { "name" : "tile_grass", "filename" : "resources/placeholder/tile_grass.jpg", "filtered" : false },
+            { "name" : "default_object", "filename" : "resources/placeholder/default_object.png", "filtered" : false }
+        ],
+        "tilemap" : [
+            {       
+                "__comment:tileheight" : "tileheight can be null or a number", 
+                "__comment:coordinates" : "hrmm...",
+
+                "name" : "simple_game_room",  
+                "json_file" : "resources/placeholder/maps/simple_game_room.json", 
+                "tileset_directory" : "resources/placeholder/tiles/",
+                "filtered" : false, 
+                "coordinates" : [1.0,1.0], 
+                "tileheight" : 2 
+            }
+        ]
+    }
+}
